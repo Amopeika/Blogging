@@ -62,7 +62,7 @@ namespace Blogging.NewDb
         #endregion
 
         #region QUERIES SINGLE ENTITY
-        //tolist så henter den det hele
+        //tolist så henter den det hele 
         private static void LoadingAllData()
         {
             using (var context = new BloggingContext())
